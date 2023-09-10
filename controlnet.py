@@ -9,6 +9,7 @@ import cv2
 from PIL import Image
 from diffusers import StableDiffusionControlNetPipeline, ControlNetModel, UniPCMultistepScheduler
 import torch
+from torch import autocast
 import numpy as np
 from diffusers.utils import load_image
 from controlnet_aux import MLSDdetector
